@@ -1,9 +1,10 @@
-import ChatList from '@/components/ui/ChatList';
-import ChatWindow from '@/components/ui/ChatWindow';
+import ChatList from "@/components/ui/ChatList";
+import ChatWindow from "@/components/ui/ChatWindow";
 
 export default function Home() {
   return (
     <div className="flex h-full">
+      test
       <ChatList />
       <ChatWindow />
     </div>
